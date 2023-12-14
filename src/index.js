@@ -27,7 +27,6 @@ function renderCharacters(charArr) {
 
     const ul = document.querySelector('ul')
 
-    // iterate over array to get each object stored in it
     charArr.forEach((charObj) => {
         console.log(charObj)
 
